@@ -1,3 +1,7 @@
+# requirements
+- php 7.*^
+- composer
+
 # Install project
 - composer install
 
