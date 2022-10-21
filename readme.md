@@ -2,7 +2,10 @@
 - composer install
 
 # run project
-- composer start
+- Windows
+composer start
+- Linux
+composer play
 
 # change port
 

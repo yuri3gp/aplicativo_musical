@@ -13,6 +13,7 @@
     ],
     "require": {},
     "scripts":{
-        "start": "php -S localhost:100 -t src"
+        "start": "php -S localhost:100 -t src",
+        "play":"sudo php -S localhost:100 -t src"
     }
 }
