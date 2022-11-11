@@ -1,4 +1,4 @@
-function Header(props)
+function Header(props : any)
 {
     return(
         <header>

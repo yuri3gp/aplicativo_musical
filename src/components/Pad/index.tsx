@@ -1,11 +1,12 @@
 import './Pad.css'
+import React from 'react'
 
 
-function Pad(props) {
+function Pad(props : any) {
     const audio = new Audio(require(`../../assets/audios/${props.src}`))
     return (
         <>
-            <div class="grid-item" onClick={() => { audio.play() }}>{props.message}</div>
+            <div className="grid-item" onClick={() => { audio.play() }}>{props.message}</div>
         </>
     )
 }

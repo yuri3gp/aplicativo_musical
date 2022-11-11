@@ -1,4 +1,4 @@
-function Footer(props)
+function Footer(props : any)
 {
     return(
         <footer>
