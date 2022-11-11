@@ -12,7 +12,3 @@
     border: none;
     color: white;
 }
-
-.grid-item:hover {
-    background-color: rgb(65, 64, 153);
-}

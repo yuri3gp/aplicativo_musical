@@ -5,20 +5,14 @@ import Pad from './components/Pad'
 import messages from './assets/messages.json'
 import React from 'react'
 
-
-const pads : any = []
-
-for(let i:number = 0; i<messages.length; i++)
-{
-  pads.push(<Pad message={messages[i]} src={i} key={i}/>)
-}
-
 function App() {
   return (
     <>
       <Header/>
         <div className='grid-container'>
-            {pads}
+            {
+              messages.map((msg,index) => <Pad message={msg} src={index} key={index} />)
+            }
         </div>
       <Footer/>
     </>
