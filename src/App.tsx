@@ -1,9 +1,9 @@
-import './App.css';
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Pad from './components/Pad'
 import messages from './assets/messages.json'
 import React from 'react'
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
             }
         </div>
       <Footer/>
+      <GlobalStyle/>
     </>
   );
 }

@@ -1,4 +1,8 @@
-.grid-item {
+import styled from "styled-components";
+
+export const Container = styled.div`
+
+.grid-item{
     background-color: black;
     border: 1px solid blue;
     font-size: 30px;
@@ -12,3 +16,5 @@
     border: none;
     color: white;
 }
+
+`
