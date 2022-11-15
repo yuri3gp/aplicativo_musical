@@ -2,8 +2,7 @@ import React from 'react';
 import {
     createBrowserRouter,
     createRoutesFromElements,
-    Route,
-    RouterProvider,
+    Route
   } from "react-router-dom";
 import App from '../App';
 import Launchpad from '../components/Launchpad';
