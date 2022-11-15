@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { Container } from './styles'
+import { Container} from './styles'
 
 interface props{
     src: number
@@ -8,19 +7,10 @@ interface props{
 
 function Pad(props : props) {
     const audio = new Audio(require(`../../assets/audios/${props.src}`))
-    const [padcolor,setPadColor] = useState(`black`)
-
     return (
         <>
-            <Container>
-                <div onMouseOver={()=>{setPadColor(`#${Math.floor(Math.random()*16777215).toString(16)}`)}}
-                onMouseUp={()=>{setPadColor(`#${Math.floor(Math.random()*16777215).toString(16)}`)}}
-                style={{backgroundColor: padcolor}}
-                className="grid-item"
-                onClick={() => { audio.play() }}
-                >
+            <Container onClick={() => { audio.play() }}>
                 {props.message}
-                </div>
             </Container>
         </>
     )

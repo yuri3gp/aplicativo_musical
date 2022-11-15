@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
-.grid-item{
     background-color: black;
     border: 1px solid blue;
     font-size: 30px;
@@ -12,9 +10,10 @@ export const Container = styled.div`
     font-size: 25px;
     cursor: pointer;
     margin: 3px;
-    background-color: rgb(31, 31, 31);
     border: none;
     color: white;
-}
-
+    &:hover {
+        background-color: lightblue;
+        color: black;
+    }
 `
