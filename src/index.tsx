@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { RouterProvider } from 'react-router-dom';
-import App from './App';
 import router from './routes';
 
 ReactDOM.render(
